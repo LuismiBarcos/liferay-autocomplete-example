@@ -1,6 +1,6 @@
-package com.liferay.metro.portlet;
+package com.liferay.autocomplete.portlet;
 
-import com.liferay.metro.constants.AutocompletePortletKeys;
+import com.liferay.autocomplete.constants.AutocompletePortletKeys;
 
 import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 

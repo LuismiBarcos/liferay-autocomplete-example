@@ -1,4 +1,4 @@
-package com.liferay.metro.constants;
+package com.liferay.autocomplete.constants;
 
 /**
  * @author luismiguelbarco

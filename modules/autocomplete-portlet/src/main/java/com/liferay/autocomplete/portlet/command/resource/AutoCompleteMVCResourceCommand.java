@@ -1,7 +1,7 @@
-package com.liferay.metro.portlet.command.render;
+package com.liferay.autocomplete.portlet.command.resource;
 
 import com.liferay.journal.model.JournalArticle;
-import com.liferay.metro.constants.AutocompletePortletKeys;
+import com.liferay.autocomplete.constants.AutocompletePortletKeys;
 import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.json.JSONArray;
 import com.liferay.portal.kernel.json.JSONFactoryUtil;
@@ -43,6 +43,7 @@ public class AutoCompleteMVCResourceCommand implements MVCResourceCommand {
     private final String PORTLET_JSON_VALUE = "value";
     private final int QUERY_START = 0;
     private final int QUERY_END = 20;
+    private final int QUEaRY_END = 20;
     private static final Log log = LogFactoryUtil.getLog(AutoCompleteMVCResourceCommand.class);
 
     @Reference
