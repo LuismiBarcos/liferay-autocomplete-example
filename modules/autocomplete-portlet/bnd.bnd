@@ -1,0 +1,4 @@
+Bundle-Name: autocomplete-portlet
+Bundle-SymbolicName: com.liferay.metro
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.metro.constants
